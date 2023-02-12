@@ -22,5 +22,13 @@ polygon = PoolVector2Array( 2, -13.2, 2, -9.5, 2.2, -9, 4.5, -9, 7, -7.8, 10.9, 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
 polygon = PoolVector2Array( 0, -19, 10, -16, 19, -10, 30, -7, 38, 3, 37, 17, 22, 27, 14, 40, -1, 49, -15, 42, -29, 28, -48, 12, -48, -7, -32, -16, -14, -25, 4, -28, 21, -22, 30, -8 )
 
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+zoom = Vector2( 1.2, 1.2 )
+limit_left = 0
+limit_top = 0
+limit_right = 2097
+limit_bottom = 1224
+
 [connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]
 [connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]

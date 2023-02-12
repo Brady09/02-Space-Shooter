@@ -10,11 +10,11 @@
 script = ExtResource( 4 )
 
 [node name="TextureRect" type="TextureRect" parent="."]
-margin_left = -93.0
-margin_top = -51.0
-margin_right = 5907.0
-margin_bottom = 2949.0
-rect_scale = Vector2( 0.210914, 0.235152 )
+margin_left = 3.00006
+margin_top = 1.00005
+margin_right = 6003.0
+margin_bottom = 3001.0
+rect_scale = Vector2( 0.348992, 0.408158 )
 texture = ExtResource( 5 )
 
 [node name="Player_Container" type="Node2D" parent="."]
